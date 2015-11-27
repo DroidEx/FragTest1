@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/secondFr"
+    tools:context="com.braviot.mytestfrag.SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:text="Second Fragment"
+        android:autoText="false"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_width="89dp"
+        android:layout_height="89dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="left|center_vertical"
+        android:src="@mipmap/ic_launcher" />
+
+</FrameLayout>
